@@ -9,7 +9,7 @@ public class DBConnection {
 		try {
 			Class.forName("org.mariadb.jdbc.Driver");
 			String url = "jdbc:mariadb://localhost:3306/practice";
-			//DB서버수정
+			//DB서버 수정입니다
 			String id = "guest";
 			String pw = "0123";
 			conn = DriverManager.getConnection(url,id,pw);
